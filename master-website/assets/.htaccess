@@ -1,0 +1,8 @@
+<Files "FontManifest.json">
+  Order Allow,Deny
+  Allow from all
+</Files>
+
+
+
+

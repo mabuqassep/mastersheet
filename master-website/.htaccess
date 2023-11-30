@@ -1,0 +1,46 @@
+<Files "script.js">
+  Order Allow,Deny
+  Allow from all
+</Files>
+
+<Files "flutter_service_worker.js">
+  Order Allow,Deny
+  Allow from all
+</Files>
+
+<Files "main.dart.js">
+  Order Allow,Deny
+  Allow from all
+</Files>
+
+<Files "manifist.json">
+  Order Allow,Deny
+  Allow from all
+</Files>
+
+# Allow access to index.html for everyone
+<Files "index.html">
+  Order Allow,Deny
+  Allow from all
+</Files>
+
+# Allow access to index.html for everyone
+<Files "style.css">
+  Order Allow,Deny
+  Allow from all
+</Files>
+
+# Allow access to index.html for everyone
+<Files "favicon.png">
+  Order Allow,Deny
+  Allow from all
+</Files>
+
+# Allow access to index.html for everyone
+<Files "version.json">
+  Order Allow,Deny
+  Allow from all
+</Files>
+
+
+
